@@ -82,7 +82,7 @@
       </div>
       <!-- tweetbox ends -->
       <?php 
-       foreach ($twits as $twit):
+       foreach ($twits["tweets"] as $twit):
 
        
       ?> 
@@ -99,18 +99,18 @@
           <div class="post__header">
             <div class="post__headerText">
               <h3>
-                <?php echo $twit["author"]; ?>
+                <?php echo $twit["autor"]; ?>
                 <span class="post__headerSpecial"
-                  ><span class="material-icons post__badge"> verified </span><?php echo $twit["userName"]; ?></span
+                  ><span class="material-icons post__badge"> verified </span><?php echo $twit["username"]; ?></span
                 >
               </h3>
             </div>
             <div class="post__headerDescription">
-              <p><?php echo $twit["twit"]; ?></p>
+              <p><?php echo $twit["texto"]; ?></p>
             </div>
           </div>
           <img
-            src="<?php echo $twit["image"]; ?>"
+            src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Moulins%2C_Mills%2C_Molinos.JPG"
             alt=""
           />
           <div class="post__footer">
