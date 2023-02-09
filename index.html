@@ -95,18 +95,18 @@
           <div class="post__header">
             <div class="post__headerText">
               <h3>
-                Somanath Goudar
+                <?php echo $author; ?>
                 <span class="post__headerSpecial"
-                  ><span class="material-icons post__badge"> verified </span>@somanathg</span
+                  ><span class="material-icons post__badge"> verified </span><?php echo $userName; ?></span
                 >
               </h3>
             </div>
             <div class="post__headerDescription">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p><?php echo $twit; ?></p>
             </div>
           </div>
           <img
-            src="https://www.focus2move.com/wp-content/uploads/2020/01/Tesla-Roadster-2020-1024-03.jpg"
+            src="<?php echo $image; ?>"
             alt=""
           />
           <div class="post__footer">
