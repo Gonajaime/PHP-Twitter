@@ -1,12 +1,1 @@
-{
-  "tweets": [
-    { "texto": "Lorem ipsum dolor", "autor": "John Doe", "username": "john" },
-    {
-      "texto": "En un lugar de la Mancha",
-      "autor": "Miguel de Cervantes",
-      "username": "mcervantes"
-    },
-    { "texto": "Yo soy tu padre", "autor": "Darth Vader", "username": "vader" },
-    { "texto": "lo que sea", "autor": "Nerea", "username": "@nerea" }
-  ]
-}
+{"tweets":[{"texto":"Lorem ipsum dolor","autor":"John Doe","username":"john"},{"texto":"En un lugar de la Mancha","autor":"Miguel de Cervantes","username":"mcervantes"},{"texto":"Yo soy tu padre","autor":"Darth Vader","username":"vader"},{"texto":"lo que sea","autor":"Nerea","username":"@nerea"},{"texto":"hola hola holaaaa","autor":"Nerea","username":"@nerea"},{"texto":"hola hola holaaaa","autor":"Nerea","username":"@nerea"}]}
